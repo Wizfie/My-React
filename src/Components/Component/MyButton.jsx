@@ -4,7 +4,7 @@ function MyButton(props) {
 	return (
 		<>
 			<button
-				onClick={() => props.clicked()}
+				onClick={() => props.clicked}
 				className={props.className}
 				id={props.id}
 			>

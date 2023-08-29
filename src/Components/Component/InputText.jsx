@@ -7,9 +7,12 @@ const InputText = (props) => {
 				<span className="label-text">{props.label}</span>
 			</label>
 			<input
-				type={props.type}
-				placeholder={props.placeholder}
 				className="input input-bordered w-full max-w-xs"
+				type={props.type}
+				name={props.name}
+				placeholder={props.placeholder}
+				onChange={props.onChange}
+				value={props.value}
 				required
 			/>
 		</div>
